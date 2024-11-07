@@ -1,0 +1,260 @@
+body{
+    /*background-image: url("");*/
+    color: black;
+    background: linear-gradient(#8cc8fe, white) ;
+    /*linear-gradient(#aacfef,#8cc8fe,#4291d6 );*/
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+/*Banner at the top*/
+#banner-image{
+    margin-top: 0px;
+    width: 100%;
+    background-image: url("images/bormingham.jpg");
+    height:300px;
+    padding: 50px;
+    align-items: center;
+    background-position: cover;
+
+}
+/* start intro*/
+#lilinfo{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid pink;
+    width:500px;
+    height: 600px;
+    background:#e52b50;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 50px 30px;
+    padding: 10px 10px;
+}
+
+#lil-info-pic{
+    width: 300px;
+    height: 150px;
+}
+#title1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+a{
+    color:whitesmoke;
+    font-size: 20px;
+}
+/* the bars home and me*/
+.bars{
+    border: 2px solid Black;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*flex-direction: row;*/
+}
+.bar1{
+    background-color: pink;
+    border: 3px solid cyan;
+    border-radius:30px;
+    padding: 5px 10px; 
+}
+
+
+/* second image of bham*/
+#secondimg{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+    border: 5px solid whitesmoke;
+}
+
+/*Teaser*/
+#teaser{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+#teaser p{
+    text-decoration: underline;
+}
+#hover-image{
+    background-image:url("images/Flag_of_Birmingham,_United_Kingdom.svg.png");
+    background-size: cover;
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    border: 5px solid pink;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom: 75px;
+}
+#hover-image:hover{
+    background-image: url("images/welcometobham.webp");
+}
+/* Main Section*/
+#main{
+
+    color: blue;
+}
+/* list contents/section*/
+.the-blog{
+    display: flex;
+    flex-direction: row;
+
+}
+#blogo{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+#blogo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blogo3{
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+}
+#the-list-section{
+    border: 30px solid pink;
+    background-image: url("images/Flag_of_Birmingham,_United_Kingdom.svg.png");
+    background-size: auto;
+    border-radius: 20px;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: coral;
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin-right:auto;
+    margin-left: auto;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-top: 5px;
+
+}
+#list1-head{
+    font-size: 30px;
+    padding: 10px 10px;
+    color:greenyellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list1-conents{
+    font-style: italic;
+    margin: 10px 0px 30px 0px;
+}
+#list2-head{
+    color: lightcyan;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.list2-conents{
+    font-style: italic;
+    margin: 10px 0px 30px 0px;
+
+}
+#list3-head{
+    font-size: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list3-conents{
+    margin: 10px 0px 30px 0px;
+    
+}
+#list4-head{
+    font-size: 20px;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.list4-conents{
+    margin: 10px 0px 30px 0px;
+
+}
+/* Card contents*/
+#card{
+    border: 3px solid coral;
+    border-radius:50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2px 3px;
+    width:400px;
+    height: 200px;
+    background: linear-gradient(#fdffcd,#ffebbb,#ffcab0);
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    color:black;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+}
+#me{
+    width: 140px;
+    border-radius: 100px;
+    border: 5px solid red;
+}
+/*last section*/
+#finishing-section{
+    color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+#lastimg{
+    border-radius: 100px;
+    margin-right: 10px;
+
+}
+#lastimg2{
+    width: 400px;
+    height: 300px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+#lastimg3:hover{
+    background-image: url();
+}
+#last-chunk{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.end{
+    font-size: 20px;
+    text-align: center;
+}
+.last-link{
+    color:red;
+}

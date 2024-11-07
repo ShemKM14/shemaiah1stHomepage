@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-style:italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*text-align:center; /* text-align will now be inheritied
+    by all the elements below so the text will be in the center
+    */
+
+}
+.card1{
+    display:flex;
+    width: 400px;
+    height: 200px;
+    background: #EDCB96;
+    color:#4d4861 ; /* text color not completely black*/
+    padding:20px;
+    margin: 0px auto; /* short hand */
+    border-radius:30px 50px;
+    justify-content:space-around;
+    text-align: center; /* now the elements in html info block 
+    will be centered */ 
+    /*border: 2px dotted black; will work but the botttom will not 
+    show bc we have border-bottom
+    */
+    border-bottom:10px solid #F7C4A5; /* border-bottom, wont work 
+    if element selector is alreaady in position below/top*/
+}
+.imgme{
+    width: 150px;
+    height:200px;
+    border-radius: 40px;
+    border: 5px solid #9E7682;
+}
