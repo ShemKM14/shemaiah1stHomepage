@@ -251,6 +251,10 @@ a{
     justify-content: start;
     align-items: start;
 }
+#lilstory{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}       
 .end{
     font-size: 20px;
     text-align: center;
