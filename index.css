@@ -252,8 +252,8 @@ a{
     align-items: start;
 }
 #lilstory{
-    border: 2px solid black;
-    border-raduis:20px;
+    border: 20px solid red;
+    border-raduis: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
 }       
