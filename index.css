@@ -251,6 +251,7 @@ a{
     justify-content: start;
     align-items: start;
 }
+        /* the little story at the top*/
 #lilstory{
     border: 10px solid red;
     border-raduis: 50px;
@@ -258,6 +259,39 @@ a{
     margin-top: 100px;
     margin-bottom: 100px;
 }       
+
+#noun0{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+}
+        
+#noun1{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+}
+#verb{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+}
+#adjective{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+}
+noun2{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+}
+adjective00{
+        background: yellow;
+        color:white;
+        text-shadow: 1p 1p 3px black;
+} 
+/* the end */        
 .end{
     font-size: 20px;
     text-align: center;
